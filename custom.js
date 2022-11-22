@@ -1,12 +1,15 @@
-const boy_names = ["Harry", "Puggy", "Zane", "Galby", "Rex", "Tex", "Siv"]
+/*jshint esversion: 6 */
 
+const boy_names = 
+["Harry", "Puggy", "Zane", "Galby", "Rex", "Tex", "Siv", "Charles", "Tony", 
+];
 
-function changer() {
-	let first_math = Math.floor(Math.random() * (boy_names.length + 1))
-	
-	let names = [document.getElementById(boy), document.getElementById(girl)]
+function boyChange() {
+	let first_math = Math.floor(Math.random() * (boy_names.length + 1));
+	let name = document.getElementById(first_name);
+	let used = [];
+	name.innerHTML = boy_names[first_math];
+	used += boy_names[first_math];
+	console.log(used);
 
-	names[0].innerHTML = boy_names[firstN];
-	names[1].innerHTML = possible_last_names[lastN]; 
-		
 }
