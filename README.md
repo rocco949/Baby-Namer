@@ -1,4 +1,4 @@
 # MakingChanges
 
 
-I am practing JS in a very beginner project.
+I am practing JS and git.
